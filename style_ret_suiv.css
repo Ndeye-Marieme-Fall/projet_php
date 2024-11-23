@@ -1,0 +1,37 @@
+.button-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.button-retour {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-suivant {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/
+.button-retour:hover {
+    background-color: #0056b3;
+}
+
+
+.button-suivant:hover {
+    background-color:#0056b3 ;
+}

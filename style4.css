@@ -1,0 +1,60 @@
+/* Applique un style général à tout le document */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centre le contenu */
+}
+
+/* Style pour les titres principaux */
+h1, h2, h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Alignement des inputs et des boutons */
+input, select, textarea, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Boutons avec un style léger */
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Résultat affiché en dessous des formulaires */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #e9ecef;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Ajout d'une classe générique pour centrer tous les éléments */
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+/* Ajout de marges pour espacer les éléments */
+.spacing {
+    margin: 20px 0;
+}
